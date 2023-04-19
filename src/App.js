@@ -1,14 +1,12 @@
+import GetAllStarships from "./Components/StarshipCard";
+import "./App.css";
+import Card from "./Components/Card";
 
-import './App.css';
-import StarWarAPI from './services/StarWarAPI';
-function App() {
-  
+export default function App() {
   return (
     <div className="App">
-      <h1>App js File</h1>
-      <StarWarAPI></StarWarAPI>
+      <Card />
+      <GetAllStarships />
     </div>
   );
 }
-
-export default App;
